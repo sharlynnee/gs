@@ -68,7 +68,7 @@ fun FavoriteCard(
                 modifier = Modifier.align(Alignment.CenterVertically)
             ) {
                 Text(
-                    text = "${productItem.price}",
+                    text = "Ksh{productItem.price}",
                     fontFamily = GilroyFontFamily,
                     fontWeight = FontWeight.Bold,
                     color = Black,

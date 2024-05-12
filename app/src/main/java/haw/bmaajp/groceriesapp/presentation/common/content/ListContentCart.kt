@@ -96,7 +96,7 @@ fun ContentCart(
 
             Text(
                 modifier = Modifier.align(Alignment.CenterVertically),
-                text = "$${productItem.price}",
+                text = "Ksh${productItem.price}",
                 fontFamily = GilroyFontFamily,
                 fontWeight = FontWeight.Bold,
                 color = Black,
