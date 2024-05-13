@@ -7,7 +7,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import kotlin.math.ceil
 import kotlin.math.floor
 

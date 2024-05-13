@@ -18,7 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.navigation.graph.Graph
 import haw.bmaajp.groceriesapp.navigation.screen.Screen
 import haw.bmaajp.groceriesapp.ui.theme.Green
@@ -67,7 +67,7 @@ fun Splash(
             modifier = Modifier
                 .scale(scale)
                 .padding(all = 64.dp),
-            painter = painterResource(id = R.drawable.img_logo_app),
+            painter = painterResource(id = com.example.groceriesapp.R.drawable.img_logo_app),
             contentDescription = stringResource(R.string.logo_app)
         )
     }

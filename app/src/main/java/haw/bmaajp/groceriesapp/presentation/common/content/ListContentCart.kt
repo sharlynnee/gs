@@ -18,7 +18,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.domain.model.ProductItem
 import haw.bmaajp.groceriesapp.ui.theme.*
 
@@ -66,7 +66,7 @@ fun ContentCart(
                     .size(width = DIMENS_64dp, height = DIMENS_64dp)
                     .padding(start = DIMENS_8dp),
                 painter = painterResource(id = productItem.image),
-                contentDescription = stringResource(id = R.string.image_product)
+                contentDescription = stringResource(id = com.example.groceriesapp.R.string.image_product)
             )
 
             Column(
@@ -111,7 +111,7 @@ fun ContentCart(
                         onClickDeleteCart.invoke(productItem)
                     },
                 imageVector = Icons.Default.Delete,
-                contentDescription = stringResource(R.string.image_delete),
+                contentDescription = stringResource(com.example.groceriesapp.R.string.image_delete),
                 colorFilter = ColorFilter.tint(color = Color.DarkGray)
             )
 
@@ -129,7 +129,7 @@ fun ContentCartPreview() {
             description = "Apples are nutritious. Apples may be good for weight loss. apples may be good for your heart. As part of a healtful and varied diet.",
             image = R.drawable.product2,
             unit = "7pcs, Priceg",
-            price = 4.99,
+            price = 500,
             nutritions = "100gr",
             review = 4.0
         ),

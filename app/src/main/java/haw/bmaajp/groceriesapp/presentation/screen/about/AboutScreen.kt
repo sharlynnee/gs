@@ -16,7 +16,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.presentation.common.card.ProfileCard
 import haw.bmaajp.groceriesapp.presentation.common.content.ListContentAbout
 import haw.bmaajp.groceriesapp.ui.theme.*
@@ -60,7 +60,7 @@ fun ButtonLogout(
     ) {
         Icon(
             imageVector = Icons.Default.ExitToApp,
-            contentDescription = stringResource(R.string.logout),
+            contentDescription = stringResource(com.example.groceriesapp.R.string.logout),
             tint = Green
         )
 

@@ -12,7 +12,7 @@ data class ProductItem(
     val description: String,
     val image: Int,
     val unit: String,
-    val price: Double,
+    val price: Int,
     val nutritions: String,
     val review: Double,
     var isCart: Boolean = false

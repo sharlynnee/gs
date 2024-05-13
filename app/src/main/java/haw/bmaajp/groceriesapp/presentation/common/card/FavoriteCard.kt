@@ -16,7 +16,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.domain.model.ProductItem
 import haw.bmaajp.groceriesapp.ui.theme.*
 
@@ -36,7 +36,7 @@ fun FavoriteCard(
         ) {
             Image(
                 painter = painterResource(id = productItem.image),
-                contentDescription = stringResource(id = R.string.image_product)
+                contentDescription = stringResource(id = com.example.groceriesapp.R.string.image_product)
             )
 
             Spacer(modifier = Modifier.padding(start = DIMENS_16dp))
@@ -78,7 +78,7 @@ fun FavoriteCard(
 
                 Icon(
                     imageVector = Icons.Default.KeyboardArrowRight,
-                    contentDescription = stringResource(R.string.arrow_right)
+                    contentDescription = stringResource(com.example.groceriesapp.R.string.arrow_right)
                 )
             }
         }
@@ -99,7 +99,7 @@ fun FavoriteCardPreview() {
             description = "",
             image = R.drawable.product10,
             unit = "7pcs, Priceg",
-            price = 4.99,
+            price = 500,
             nutritions = "100gr",
             review = 4.0
         )

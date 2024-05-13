@@ -22,8 +22,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
+import com.example.groceriesapp.R
 import com.google.accompanist.pager.ExperimentalPagerApi
-import haw.bmaajp.groceriesapp.R
 import haw.bmaajp.groceriesapp.domain.model.ProductItem
 import haw.bmaajp.groceriesapp.navigation.screen.Screen
 import haw.bmaajp.groceriesapp.presentation.common.content.ListContentProduct
@@ -52,7 +52,7 @@ fun HomeScreen(
             HeaderLocationHome()
 
             SearchViewBar(
-                hint = stringResource(id = R.string.search_store),
+                hint = stringResource(id = com.example.groceriesapp.R.string.search_store),
                 query = searchQuery,
                 onValueChange = {
                     if (it.isNotEmpty()) navController.navigate(Screen.Search.route)
@@ -62,7 +62,7 @@ fun HomeScreen(
             SliderBanner()
 
             ListContentProduct(
-                title = stringResource(id = R.string.exclusive_offer),
+                title = stringResource(id = com.example.groceriesapp.R.string.exclusive_offer),
                 products = allProducts,
                 navController = navController,
                 onClickToCart = { productItem ->
@@ -73,7 +73,7 @@ fun HomeScreen(
             Spacer(modifier = Modifier.height(DIMENS_24dp))
 
             ListContentProduct(
-                title = stringResource(id = R.string.best_selling),
+                title = stringResource(id = com.example.groceriesapp.R.string.best_selling),
                 products = allProducts.sortedByDescending { it.id },
                 navController = navController,
                 onClickToCart = { productItem ->
@@ -98,8 +98,8 @@ fun HeaderLocationHome(
             modifier = Modifier
                 .size(DIMENS_24dp)
                 .align(Alignment.CenterHorizontally),
-            painter = painterResource(id = R.drawable.ic_nectar),
-            contentDescription = stringResource(id = R.string.logo_app),
+            painter = painterResource(id = com.example.groceriesapp.R.drawable.ic_nectar),
+            contentDescription = stringResource(id = com.example.groceriesapp.R.string.logo_app),
             tint = Color.Unspecified
         )
 
@@ -108,7 +108,7 @@ fun HeaderLocationHome(
         Row {
             Icon(
                 imageVector = Icons.Default.LocationOn,
-                contentDescription = stringResource(R.string.image_location),
+                contentDescription = stringResource(com.example.groceriesapp.R.string.image_location),
                 tint = GrayThirdTextColor
             )
             Text(

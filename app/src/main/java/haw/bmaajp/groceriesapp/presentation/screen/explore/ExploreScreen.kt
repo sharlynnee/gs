@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.presentation.common.card.CategoryCard
 import haw.bmaajp.groceriesapp.presentation.component.SearchViewBar
 import haw.bmaajp.groceriesapp.ui.theme.*

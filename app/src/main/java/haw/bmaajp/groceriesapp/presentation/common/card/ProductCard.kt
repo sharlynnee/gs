@@ -19,7 +19,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.domain.model.ProductItem
 import haw.bmaajp.groceriesapp.navigation.screen.Screen
 import haw.bmaajp.groceriesapp.ui.theme.*
@@ -122,8 +122,8 @@ fun ItemProductPreview() {
             title = "Organic Bananas",
             description = "",
             image = R.drawable.product10,
-            unit = "7pcs, Priceg",
-            price = 4.99,
+            unit = "7pcs, Price",
+            price = 500,
             nutritions = "100gr",
             review = 4.0
         ),

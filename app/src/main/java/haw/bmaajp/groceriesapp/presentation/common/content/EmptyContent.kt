@@ -11,7 +11,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.ui.theme.*
 
 @Composable
@@ -26,8 +26,8 @@ fun EmptyContent(
     ) {
         Image(
             modifier = Modifier.size(DIMENS_248dp),
-            painter = painterResource(id = R.drawable.img_empty_content),
-            contentDescription = stringResource(R.string.image_content_empty)
+            painter = painterResource(id = com.example.groceriesapp.R.drawable.img_empty_content),
+            contentDescription = stringResource(com.example.groceriesapp.R.string.image_content_empty)
         )
 
         Spacer(modifier = Modifier.height(DIMENS_16dp))

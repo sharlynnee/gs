@@ -1,4 +1,4 @@
-package haw.bmaajp.groceriesapp
+package com.example.groceriesapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

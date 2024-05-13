@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.hilt.navigation.compose.hiltViewModel
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.presentation.common.content.ListContentCart
 import haw.bmaajp.groceriesapp.ui.theme.Black
 import haw.bmaajp.groceriesapp.ui.theme.DIMENS_16dp

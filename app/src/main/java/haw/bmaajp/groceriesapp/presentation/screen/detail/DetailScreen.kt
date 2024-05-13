@@ -22,7 +22,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.domain.model.ProductItem
 import haw.bmaajp.groceriesapp.presentation.common.SpacerDividerContent
 import haw.bmaajp.groceriesapp.presentation.component.RatingBar
@@ -266,7 +266,7 @@ fun DetailScreenImageHeaderPreview() {
             description = "Apples are nutritious. Apples may be good for weight loss. apples may be good for your heart. As part of a healtful and varied diet.",
             image = R.drawable.product2,
             unit = "7pcs, Priceg",
-            price = 4.99,
+            price = 500,
             nutritions = "100gr",
             review = 4.0
         )
@@ -283,7 +283,7 @@ fun DetailContentDescriptionPreview() {
             description = "Apples are nutritious. Apples may be good for weight loss. apples may be good for your heart. As part of a healtful and varied diet.",
             image = R.drawable.product2,
             unit = "7pcs, Priceg",
-            price = 4.99,
+            price = 500,
             nutritions = "100gr",
             review = 4.0
         )

@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace 'haw.bmaajp.groceriesapp'
-    compileSdk 33
+    namespace 'com.example.groceriesapp'
+    compileSdk 34
 
     defaultConfig {
-        applicationId "haw.bmaajp.groceriesapp"
+        applicationId "com.example.groceriesapp"
         minSdk 21
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 

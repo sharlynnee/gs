@@ -12,7 +12,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.domain.model.ProductItem
 import haw.bmaajp.groceriesapp.presentation.common.card.ProductCard
 import haw.bmaajp.groceriesapp.ui.theme.*
@@ -43,7 +43,7 @@ fun ListContentProduct(
             )
             Text(
                 modifier = Modifier.align(Alignment.CenterVertically),
-                text = stringResource(id = R.string.see_all),
+                text = stringResource(id = com.example.groceriesapp.R.string.see_all),
                 fontFamily = GilroyFontFamily,
                 fontWeight = FontWeight.SemiBold,
                 fontSize = TEXT_SIZE_12sp,
@@ -75,9 +75,19 @@ fun ListContentProductPreview() {
                 id = 1,
                 title = "Organic Bananas",
                 description = "",
-                image = R.drawable.product10,
+                image = com.example.groceriesapp.R.drawable.product10,
                 unit = "7pcs, Priceg",
-                price = 4.99,
+                price = 500,
+                nutritions = "100gr",
+                review = 4.0
+            ),
+            ProductItem(
+                id = 1,
+                title = "Organic Bananas",
+                description = "",
+                image = com.example.groceriesapp.R.drawable.product10,
+                unit = "7pcs, Priceg",
+                price = 500,
                 nutritions = "100gr",
                 review = 4.0
             ),
@@ -87,17 +97,7 @@ fun ListContentProductPreview() {
                 description = "",
                 image = R.drawable.product10,
                 unit = "7pcs, Priceg",
-                price = 4.99,
-                nutritions = "100gr",
-                review = 4.0
-            ),
-            ProductItem(
-                id = 1,
-                title = "Organic Bananas",
-                description = "",
-                image = R.drawable.product10,
-                unit = "7pcs, Priceg",
-                price = 4.99,
+                price = 500,
                 nutritions = "100gr",
                 review = 4.0
             )

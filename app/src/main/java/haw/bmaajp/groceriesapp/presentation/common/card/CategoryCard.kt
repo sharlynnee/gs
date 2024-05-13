@@ -15,7 +15,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
+import com.example.groceriesapp.R.*
 import haw.bmaajp.groceriesapp.domain.model.CategoryItem
 import haw.bmaajp.groceriesapp.ui.theme.*
 
@@ -39,7 +40,7 @@ fun CategoryCard(
                     .fillMaxWidth()
                     .height(DIMENS_80dp),
                 painter = painterResource(id = categoryItem.image),
-                contentDescription = stringResource(R.string.image_category)
+                contentDescription = stringResource(string.image_category)
             )
 
             Spacer(modifier = Modifier.height(DIMENS_20dp))

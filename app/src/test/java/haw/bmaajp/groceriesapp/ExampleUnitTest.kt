@@ -1,4 +1,4 @@
-package haw.bmaajp.groceriesapp
+package com.example.groceriesapp
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

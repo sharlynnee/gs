@@ -19,7 +19,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.navigation.graph.Graph
 import haw.bmaajp.groceriesapp.ui.theme.*
 
@@ -50,8 +50,8 @@ fun OnBoarding(
     ) {
         Image(
             modifier = Modifier.fillMaxSize(),
-            painter = painterResource(id = R.drawable.img_onboarding),
-            contentDescription = stringResource(R.string.image_on_boarding),
+            painter = painterResource(id = com.example.groceriesapp.R.drawable.img_onboarding),
+            contentDescription = stringResource(com.example.groceriesapp.R.string.image_on_boarding),
             contentScale = ContentScale.Crop
         )
         Surface(
@@ -64,7 +64,7 @@ fun OnBoarding(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
-                    text = stringResource(id = R.string.welcome_to_store),
+                    text = stringResource(id = com.example.groceriesapp.R.string.welcome_to_store),
                     fontFamily = GilroyFontFamily,
                     fontWeight = FontWeight.SemiBold,
                     fontSize = TEXT_SIZE_49sp,
@@ -72,7 +72,7 @@ fun OnBoarding(
                     textAlign = TextAlign.Center,
                 )
                 Text(
-                    text = stringResource(R.string.desc_welcome),
+                    text = stringResource(com.example.groceriesapp.R.string.desc_welcome),
                     fontFamily = GilroyFontFamily,
                     fontWeight = FontWeight.Medium,
                     fontSize = TEXT_SIZE_16sp,

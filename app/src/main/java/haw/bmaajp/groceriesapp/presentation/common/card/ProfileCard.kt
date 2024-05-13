@@ -13,7 +13,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.ui.theme.*
 
 @Composable
@@ -31,8 +31,8 @@ fun ProfileCard(
         ) {
             Image(
                 modifier = Modifier.height(DIMENS_80dp),
-                painter = painterResource(id = R.drawable.img_profile),
-                contentDescription = stringResource(R.string.image_profile)
+                painter = painterResource(id = com.example.groceriesapp.R.drawable.img_profile),
+                contentDescription = stringResource(com.example.groceriesapp.R.string.image_profile)
             )
         }
 
@@ -44,7 +44,7 @@ fun ProfileCard(
                 .align(Alignment.CenterVertically),
         ) {
             Text(
-                text = stringResource(R.string.name_profile),
+                text = stringResource(com.example.groceriesapp.R.string.name_profile),
                 fontFamily = GilroyFontFamily,
                 fontWeight = FontWeight.Bold,
                 fontSize = TEXT_SIZE_18sp,

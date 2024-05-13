@@ -16,7 +16,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import haw.bmaajp.groceriesapp.R
+import com.example.groceriesapp.R
 import haw.bmaajp.groceriesapp.domain.model.AboutItem
 import haw.bmaajp.groceriesapp.ui.theme.*
 import haw.bmaajp.groceriesapp.utils.DataDummy
@@ -74,7 +74,7 @@ fun ItemAbout(
             Icon(
                 modifier = Modifier.align(Alignment.CenterVertically),
                 imageVector = Icons.Default.ArrowForward,
-                contentDescription = stringResource(id = R.string.arrow_right)
+                contentDescription = stringResource(id = com.example.groceriesapp.R.string.arrow_right)
             )
         }
     }
@@ -91,7 +91,7 @@ fun ListContentAboutPreview() {
 fun ItemAboutPreview() {
     ItemAbout(
         aboutItem = AboutItem(
-            image = R.drawable.ic_orders,
+            image = com.example.groceriesapp.R.drawable.ic_orders,
             title = "Orders"
         )
     )
