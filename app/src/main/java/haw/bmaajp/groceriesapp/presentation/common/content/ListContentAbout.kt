@@ -25,15 +25,7 @@ import haw.bmaajp.groceriesapp.utils.DataDummy
 fun ListContentAbout(
     modifier: Modifier = Modifier
 ) {
-    LazyColumn(
-        modifier = modifier.fillMaxWidth(),
-        contentPadding = PaddingValues(top = DIMENS_32dp),
-        verticalArrangement = Arrangement.spacedBy(DIMENS_8dp)
-    ) {
-        items(DataDummy.generateDummyAbout()) { items ->
-            ItemAbout(aboutItem = items)
-        }
-    }
+
 
     Spacer(modifier = Modifier.height(DIMENS_8dp))
 

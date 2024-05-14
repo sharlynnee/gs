@@ -71,14 +71,7 @@ fun OnBoarding(
                     color = Color.White,
                     textAlign = TextAlign.Center,
                 )
-                Text(
-                    text = stringResource(com.example.groceriesapp.R.string.desc_welcome),
-                    fontFamily = GilroyFontFamily,
-                    fontWeight = FontWeight.Medium,
-                    fontSize = TEXT_SIZE_16sp,
-                    color = GrayTextColor,
-                    textAlign = TextAlign.Center,
-                )
+
                 Spacer(modifier = Modifier.height(DIMENS_40dp))
                 Button(
                     onClick = {

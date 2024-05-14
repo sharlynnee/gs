@@ -148,29 +148,6 @@ object DataDummy {
         )
     }
 
-    fun generateDummyAbout(): List<AboutItem> {
-        return listOf(
-            AboutItem(
-                image = R.drawable.ic_orders,
-                title = "Orders"
-            ),
-            AboutItem(
-                image = R.drawable.ic_my_details,
-                title = "My Details"
-            ),
-            AboutItem(
-                image = R.drawable.ic_address,
-                title = "Delivery Address"
-            ),
-            AboutItem(
-                image = R.drawable.ic_payment,
-                title = "Payment"
-            ),
-            AboutItem(
-                image = R.drawable.ic_notification,
-                title = "Notification"
-            ),
-        )
-    }
+
 
 }
